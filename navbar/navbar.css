@@ -31,7 +31,7 @@ body{
 
 @media (min-width: 768px){
     .navbar-right {
-        float: right!important;
+        float: right !important;
          margin-right: 2em; 
     }
 }

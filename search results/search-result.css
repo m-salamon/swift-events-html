@@ -1,0 +1,36 @@
+body{
+ background-color: #fff; 
+ font-family: 'Unica One', cursive;
+ font-size: 18px;
+}
+
+.serach-reults{
+    margin: 1em 0;
+}
+
+.serach-reults-label{
+    font-size: 1.5em;
+}
+.nav-pills{
+    background-color: #629c44;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.nav-pills a{
+  color: #fff;
+}
+
+.nav-pills>li>a:focus, .nav-pills>li>a:hover,  .nav-pills>li>a:active{
+    background-color: #588c3d;
+}
+
+.results{
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.result-image{
+    padding-bottom: 5px;
+}

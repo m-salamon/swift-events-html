@@ -11,7 +11,7 @@
   <!-- Optional theme -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
     crossorigin="anonymous">
-  <link rel="stylesheet" href="./navbar/navbar.css">
+  <link rel="stylesheet" href="./search-result.css">
   <link href="https://fonts.googleapis.com/css?family=Unica+One" rel="stylesheet">
   <title>Document</title>
 </head>
@@ -19,49 +19,120 @@
 <body>
 
 
-  <nav class="navbar navbar-default transparent navbar-fixed-top">
-    <div class="container-fluid">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
-          aria-expanded="false">
-      <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-        <a href="#" class="navbar-left "><img src="images/swift_logo.PNG" class="swift-logo"></a>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="form-group serach-reults">
+        <span class="serach-reults-label">Search Results</span>
+            <div class="form-group has-feedback pull-right">
+              <input type="text" class="form-control" placeholder="Search..." />
+              <i class="glyphicon glyphicon-search form-control-feedback"></i>
+            </div>
       </div>
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
-          <!--<li class="active">--><li><a class="home" href="#">HOME<span class="sr-only">(current)</span></a></li>
-          <li class="divider-vertical hidden-xs"></li>
-          <li><a class="about" href="#">ABOUT</a></li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
-         <button type="button" class="btn navbar-btn">Login</button>
-         <button type="button" class="btn navbar-btn">Sign up</button>
-        </ul>
-        <ul class="nav navbar-nav navbar-right nav-pills" role="tablist">
-            <li role="presentation"><a href="#"><span class="badge">3</span> Saved Items <span class="glyphicon glyphicon-user" aria-hidden="true"></span></a></li>
-        </ul>
-      </div>
-      <!-- /.navbar-collapse -->
     </div>
-    <!-- /.container-fluid -->
-  </nav>
-
-
-<div class="container-fluid">
-    <div class="row">
-        <div>Search Results</div>
-        <div class="input-group input-group-md">
-            <span class="input-group-addon" id="sizing-addon1">@</span>
-            <input type="text" class="form-control" placeholder="Search..." aria-describedby="sizing-addon1">
+  </div>
+  <div class="row">
+    <div class="col-md-2">
+     <div class="form-inline">
+        <div class="form-group">
+          <label for="search">My simchas</label>
+          <div class="btn-group btn-block">
+              <button type="button" class="btn btn-default dropdown-toggle btn-block" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">My simchas <span class="caret"></span></button>
+              <ul class="dropdown-menu dropdown-menu-left">
+                <li><a href="#">Josh wedding 6/20/17</a></li>
+                <li><a href="#">Bob bar mitzvah 7/03/17</a></li>
+                <li><a href="#">Joe sheva brochos 8/10/17</a></li>
+              </ul>
+            </div><!-- /btn-group -->
         </div>
-</div>
-</div>
+      </div>
+    </div>
+      <div class="col-md-2">
+        <div class="form-inline">
+          <div class="form-group">
+            <label for="from-date">From</label>
+            <input type="date" class="form-control" id="from-date">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2">
+         <div class="form-inline">
+            <div class="form-group">
+              <label for="to-date">To</label>
+              <input type="date" class="form-control" id="to-date">
+            </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+          <div class="form-inline">
+            <div class="form-group">
+              <label for="zip-code">Search zip code</label>
+              <div class="input-group">
+                <span class="input-group-addon">
+                  <input type="radio" aria-label="...">
+                </span>
+                <input type="text" class="form-control" aria-label="..." placeholder="zip code">
+                <div class="input-group-btn">
+                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Miles <span class="caret"></span></button>
+                  <ul class="dropdown-menu dropdown-menu-right">
+                    <li><a href="#">10</a></li>
+                    <li><a href="#">20</a></li>
+                    <li><a href="#">30</a></li>
+                    <li><a href="#">40</a></li>
+                  </ul>
+                </div><!-- /btn-group -->
+              </div><!-- /input-group -->
+            </div>
+          </div>
+    </div>
+    <div class="col-md-2">
+       <div class="form-inline">
+            <div class="form-group">
+            <label for="state">Search state</label>
+              <div class="input-group">
+                <span class="input-group-addon">
+                  <input type="radio" aria-label="...">
+                </span>
+                <div class="btn-group btn-block">
+                  <button type="button" class="btn btn-default dropdown-toggle btn-block" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Search state <span class="caret"></span></button>
+                  <ul class="dropdown-menu dropdown-menu-right">
+                    <li><a href="#">New York</a></li>
+                    <li><a href="#">New Jersey</a></li>
+                    <li><a href="#">Connecticut</a></li>
+                    <li><a href="#">Massachusetts</a></li>
+                  </ul>
+                </div><!-- /btn-group -->
+              </div><!-- /input-group -->
+            </div>
+       </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <ul class="nav nav-pills nav-justified">
+      <li role="presentation" <!--class="active"--><a href="#">Halls</a></li>
+      <li role="presentation"><a href="#">Musicians</a></li>
+      <li role="presentation"><a href="#">Photographers</a></li>
+      <li role="presentation"><a href="#">Florists</a></li>
+    </ul>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-3 col-xs-6">
+      <div class="results">
+        <img class="result-image img-responsive" src="../images/hall.jpeg" alt="results">
+          <div class="result-name">The Palace</div>
+      </div>
+    </div>
+    <div class="col-md-3 col-xs-6">
+      <div class="results">
+        <img class="result-image img-responsive" src="../images/hall.jpeg" alt="results">
+          <div class="result-name">The Palace</div>
+      </div>
+    </div>
+  </div> <!-- ./row -->
+</div>  <!-- ./container -->
 
 
 
