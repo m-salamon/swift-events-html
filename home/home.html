@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../home/home.css">
+    <title>Main Page</title>
+</head>
+
+<body>
+    <div id="mainHeader" class="container-fluid col-xs-12">
+        <div class="text-center"><h1 id="wm">Welcome</h1></div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <form>
+                <div class="form-group form-inline">
+
+                    <div class="row">
+                        <div class="col-sm-1">
+                            <h4 class="listNumber">1</h4>
+                        </div>
+                        <div class="col-sm-3">
+                            <h4>Choose a range of dates</h4>
+                        </div>
+                        <div class="col-sm-4">
+                            <label class="col-form-label">From</label>
+                            <input type="date" class="form-control" id="fromDateInput">
+                        </div>
+                        <div class="col-sm-4">
+                            <label class="col-form-label">To</label>
+                            <input type="date" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-1">
+                            <h4 class="listNumber">2</h4>
+                        </div>
+                        <div class="col-sm-3">
+                            <h4>Choose a location</h4>
+                        </div>
+                        <div class="col-sm-3">
+                            <label class="radio btn btn-primary">
+                   <input type="radio" name="stateZip" id="stateRadioButton"> By State
+                                     </label>
+                            <span class="dropdown">
+                                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Select State
+                                            <span class="caret"></span></button>
+                            <ul class="dropdown-menu text-center">
+                                <li class="text-center"><a href="#">New Jersey</a></li>
+                                <li class="text-center"><a href="#">New York</a></li>
+                                <li class="text-center"><a href="#">Washington</a></li>
+                            </ul>
+                            </span>
+                        </div>
+                        <div class="col-sm-4">
+                            <label class="btn btn-primary">
+                           <input type="radio" name="stateZip" id="stateRadioButton"> By Zip
+                            </label>
+                             <input type="text" class="form-control">
+                        </div>
+                        <div class="col-sm-1">
+                            <span class="dropdown">
+                                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Select Mile Range
+                                            <span class="caret"></span></button>
+                            <ul class="dropdown-menu">
+                                <li class="text-center"><a href="#">10</a></li>
+                                <li class="text-center"><a href="#">20</a></li>
+                                <li class="text-center"><a href="#">30</a></li>
+                            </ul>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-1">
+                            <h4 class="listNumber">3</h4>
+                        </div>
+                        <div class="col-sm-11">
+                            <button class="btn btn-success">Go!</button>
+                        </div>
+                    </div>
+
+                </div>
+
+        </div>
+        </form>
+    </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

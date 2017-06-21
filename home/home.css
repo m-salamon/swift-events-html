@@ -1,0 +1,25 @@
+body,html{
+    height:100%;
+}
+#mainHeader{
+     margin-bottom:1%;
+     border-bottom: 6px solid #629c44;
+     border-top: 6px solid #629c44;
+     height:50%;
+     background-image: url("../images/wedding3.webp");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: 0 10%; 
+}
+.listNumber{
+   margin-left:50%;
+   margin-top:0.1em;
+   color: #629c44;
+   font-size: 2em;
+}
+#wm{
+    color:#629c44;
+}
+input[type=radio]{
+    vertical-align:top;
+}

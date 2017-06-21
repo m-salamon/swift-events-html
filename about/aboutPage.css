@@ -1,0 +1,19 @@
+.aboutHeader {
+        border-bottom: 6px solid #629c44;
+        padding-top: 10px;
+        padding-bottom: 10px;
+}
+
+.aboutContent {
+        margin: 50px;
+}
+
+.aboutContentText {
+        
+        padding-top: 20px;
+}
+
+.aboutContentIMG {
+    height: 215px;
+    width: 400px;
+}
