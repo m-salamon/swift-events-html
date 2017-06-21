@@ -1,5 +1,8 @@
 body,html{
     height:100%;
+    background-color: #fff; 
+    font-family: 'Unica One', cursive;
+    font-size: 18px;
 }
 #mainHeader{
      margin-bottom:1%;
@@ -22,4 +25,8 @@ body,html{
 }
 input[type=radio]{
     vertical-align:top;
+}
+
+.date-label, .location-label{
+    font-size: 1.2em;
 }
