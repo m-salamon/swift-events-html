@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+ background-color: #fff; 
+ font-family: 'Unica One', cursive;
+ padding-top: 80px;
+}
+
+.navbar .navbar-default {
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.navbar{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /*border-bottom: 6px solid #629c44;*/
+}
+.navbar.navbar-default .navbar-collapse {
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+
+.navbar-btn {
+    margin-left: 1em;
+    background-color: transparent;
+    border: 1px solid #629c44;
+    font-size: 16px;
+}
+
+
+@media (min-width: 768px){
+    .navbar-right {
+        float: right!important;
+         margin-right: 2em; 
+    }
+}
+
+.navbar-default .navbar-nav>li> .home, .navbar-default .navbar-nav>li> .about {
+  color: #000;
+  font-size: 2em;
+}
+
+.navbar-default .navbar-nav {
+    margin-left: 10em;
+}
+
+.swift-logo{
+    width: 14em;   
+}
+
+.transparent{
+   background:#fff; 
+}
+
+.divider-vertical {
+    height: 30px;
+    margin: 10px 10px;
+    border-left: 1px solid #629c44;
+    border-right: 1px solid #629c44;
+}
+
+.nav-pills> li{
+    border: 1px solid #629c44;
+}
+
+.nav-pills> li> a> .badge{
+    margin-right: 1em;
+    background-color: #629c44;
+}
+
+.nav-pills> li> a> .glyphicon{
+    margin-left: 1em;
+}
+
+.nav-pills a{
+    font-size: 1.2em;
+}
+
+.vendorDetailsTitle {
+    padding-left: 25px;
+    border-bottom: 6px solid #629c44;
+    margin: 0
+}
+.row {
+    padding-top: 10px;
+}
+
+#vendorDetailsUpperScreen, #vendorDetailsMainScreen .container-fluid {
+    height: 50%;
+}
+
+#vendorDetailsUpperScreen {
+    width: 100%;
+    background-color: #352525;
+    padding: 10px;
+    height: 300px;
+}
+
+.vendorDetailsLeft-arrow  {
+    transform: rotate(180deg);
+}
+
+.vendorDetailsArrow {
+    padding: 25px;
+}
+
+ #vendorDetailsLowerScreen {
+     height: 100%;
+ }
+
+ .vendorDetailsLargeImg {
+     height: 205px;
+ }
+
+ .vendorDetailsSmallImg {
+     height: 48px;
+ }
+
+ .vendorDetailsLargeImg img, .vendorDetailsSmallImg img {
+     width: 100%;
+     height: 100%;
+ }
+
+ .col-xs-12 ul {
+     list-style: none;
+     width: 100%;
+ }
+
+ .col-xs-12 ul .vendorDetailsDate {
+     display: inline-block;
+     font-family: sans-serif, Arial, Helvetica
+ }
+
+ .col-xs-12 ul li {
+     width: 85px;
+     height: 85px;
+     margin: 5px;
+ }
+
+ .vendorDetailsRegBorder {
+     border: 1px solid black;
+ }
+
+ .vendorDetailsFancyBorder {
+     border: 6px solid #629c44;
+ }
+
+ li span, .vendorDetailsFancyGreen {
+     color: #629c44;
+     font-weight: bold;
+ }
+
+ li span {
+     font-size: 20px;
+ }
+
+ #vendorDetailsLocation {
+     margin-left: 12px;
+ }
+
+ .vendorDetailsRegFont  {
+     font-family: sans-serif, Arial, Helvetica
+ }
+
+ .vendorDetailsInfo-header {
+     font-size: 16px;
+ }
