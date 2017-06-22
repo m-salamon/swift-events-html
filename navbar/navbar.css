@@ -62,19 +62,19 @@ body{
     border-right: 1px solid #629c44;
 }
 
-.nav-pills> li{
+.saved-items> li{
     border: 1px solid #629c44;
 }
 
-.nav-pills> li> a> .badge{
+.saved-items> li> a> .badge{
     margin-right: 1em;
     background-color: #629c44;
 }
 
-.nav-pills> li> a> .glyphicon{
+.saved-items> li> a> .glyphicon{
     margin-left: 1em;
 }
 
-.nav-pills a{
+.saved-items a{
     font-size: 1.2em;
 }
