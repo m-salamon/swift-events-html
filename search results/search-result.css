@@ -31,6 +31,18 @@ body{
     margin-bottom: 1em;
 }
 
-.result-image{
-    padding-bottom: 5px;
+@media screen and (max-width: 768px) { 
+    .result-image{
+        padding-bottom: 5px;
+        height: 11em;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 768px) { 
+    .result-image{
+        padding-bottom: 5px;
+        height: 9.4em;
+        margin: 0 auto;
+    }
 }

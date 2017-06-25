@@ -1,7 +1,17 @@
-body{
- background-color: #fff; 
- font-family: 'Unica One', cursive;
- padding-top: 80px;
+.swift-logo:hover {
+    opacity: 0.6;
+}
+
+.logo-1{
+    font-size: 2em;
+    color: #000;
+     font-family: 'Unica One', cursive;
+}
+
+.logo-2{
+    font-size: 1.5em;
+    color: #629c44;
+    font-family: 'La Belle Aurore', cursive;
 }
 
 .navbar .navbar-default {
@@ -9,12 +19,13 @@ body{
     -webkit-box-shadow: none;
     box-shadow: none;
 }
-.navbar{
+
+.navbar {
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     border: none;
     box-shadow: none;
-} 
+}
 
 .navbar.navbar-default .navbar-collapse {
     border: 0;
@@ -22,37 +33,42 @@ body{
     box-shadow: none;
 }
 
-
-.navbar-btn {
+.login-btn {
     margin-left: 1em;
-    background-color: transparent;
+    background-color: #fff;
     border: 1px solid #629c44;
-    font-size: 16px;
+    font-size: 14px;
 }
 
+.login-btn:hover {
+    background-color: #629c44;
+    color: #fff;
+}
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
     .navbar-right {
         float: right !important;
-         margin-right: 2em; 
+        margin-right: 2em;
     }
 }
 
-.navbar-default .navbar-nav>li> .home, .navbar-default .navbar-nav>li> .about {
-  color: #000;
-  font-size: 2em;
+.navbar-default .navbar-nav>li>.home,
+.navbar-default .navbar-nav>li>.about {
+    color: #000;
+    font-size: 1.2em;
+}
+
+.navbar-default .navbar-nav>li>.home:hover,
+.navbar-default .navbar-nav>li>.about:hover {
+    color: #629c44;
 }
 
 .navbar-default .navbar-nav {
     margin-left: 10em;
 }
 
-.swift-logo{
-    width: 14em;   
-}
-
-.transparent{
-   background:#fff; 
+.transparent {
+    background: #fff;
 }
 
 .divider-vertical {
@@ -62,19 +78,26 @@ body{
     border-right: 1px solid #629c44;
 }
 
-.saved-items> li{
+.saved-items {
     border: 1px solid #629c44;
+    padding: 10px;
+    background-color: #fff;
 }
 
-.saved-items> li> a> .badge{
-    margin-right: 1em;
+.saved-items:hover, .saved-items:hover a{
     background-color: #629c44;
+    color: #fff;
+}
+.saved-items a{
+    color: #000;
+    text-decoration: none;
+}
+.saved-items>a>.badge {
+    margin-right: 1em;
+    background-color: #81af69;
 }
 
-.saved-items> li> a> .glyphicon{
+.saved-items>a>.glyphicon {
     margin-left: 1em;
 }
 
-.saved-items a{
-    font-size: 1.2em;
-}
