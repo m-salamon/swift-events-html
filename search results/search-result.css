@@ -4,6 +4,10 @@ body{
  font-size: 18px;
 }
 
+.searchResultsContainerPadding{
+    padding-top: 80px;
+}
+
 .serach-reults{
     margin: 1em 0;
 }
